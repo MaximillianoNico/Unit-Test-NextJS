@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit Test Component <Index /> should match to snapshot 1`] = `
+<div>
+  Landing Page
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      className="form-group__container"
+    >
+      <input
+        className=""
+      />
+    </div>
+  </div>
+</div>
+`;
