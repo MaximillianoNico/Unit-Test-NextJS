@@ -21,5 +21,8 @@ module.exports = {
     "node_modules",
     "out",
     ".next"
+  ],
+  "testPathIgnorePatterns" : [
+    "<rootDir>/.next" 
   ]
 };
