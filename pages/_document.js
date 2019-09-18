@@ -1,4 +1,3 @@
-import React from 'react'
 import Document, {Head, Main, NextScript } from 'next/document'
 
 class Documents extends Document{

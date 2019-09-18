@@ -1,4 +1,3 @@
-const { createReadStream } = require('fs');
 
 const express = require('express');
 const next = require('next');

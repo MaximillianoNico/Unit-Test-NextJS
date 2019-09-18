@@ -1,5 +1,4 @@
 import App, {Container} from 'next/app'
-import React, {Component} from 'react'
 import withReduxStore from '../app/lib/with-redux-store'
 import { Provider } from 'react-redux'
 

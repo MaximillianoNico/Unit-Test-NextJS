@@ -1,7 +1,7 @@
-export default ({ value = 1 }) => {
+export default ({ value = 'Unit Test' }) => {
     return (
         <div>
-            Landing Page
+            Landing Page {value}
             <div style={{ display:'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <div className="form-group__container">
                     <input className=""/>

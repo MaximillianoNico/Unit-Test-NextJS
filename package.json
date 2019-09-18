@@ -58,7 +58,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.4",
-    "eslint": "^5.7.0",
+    "eslint": "^6.0.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
     "eslint-plugin-import": "^2.14.0",
@@ -80,7 +80,7 @@
     "pm2:stop": "pm2 stop ui-blogdev",
     "pm2:delete": "pm2 delete ui-blogdev",
     "l": "clear && npm run lint",
-    "lint": "eslint *.js app components pages",
+    "lint": "eslint *.js app pages",
     "lint:fix": "npm run lint -- --fix",
     "test:coverage": "npm test -- --coverage"
   }
