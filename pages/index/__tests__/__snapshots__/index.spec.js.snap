@@ -2,7 +2,8 @@
 
 exports[`Unit Test Component <Index /> should match to snapshot 1`] = `
 <div>
-  Landing Page
+  Landing Page 
+  Unit Test
   <div
     style={
       Object {
