@@ -64,7 +64,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
-    "husky": "^1.1.1",
+    "husky": "^3.0.5",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
     "mocha": "^5.2.0",
@@ -83,5 +83,11 @@
     "lint": "eslint *.js app pages",
     "lint:fix": "npm run lint -- --fix",
     "test:coverage": "npm test -- --coverage"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
   }
 }
